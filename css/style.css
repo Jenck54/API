@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(/img/Pokemon.jpg);
+    background-size: cover;
+}
+.conteneur1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+.div {
+    border: 2px solid red;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.conteneur2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
