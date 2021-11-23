@@ -16,7 +16,7 @@ body {
     margin-right: 100px;
     margin-top: 50px;
 }
-.div {
+.menu {
     border: 2px solid red;
     border-radius: 10px;
     padding-top: 5px;
@@ -25,11 +25,42 @@ body {
     padding-right: 10px;
     background-color: rgba(255, 255, 255, 0.2);
 }
-.conteneur2 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    margin-left: 100px;
-    margin-right: 100px;
+.div>*:hover {
+    cursor: pointer;
+    width: 5%;
+    background-color: yellowgreen;
+}
+.menu:hover {
+    cursor: pointer;
+}
+#resultsBerries {
+    border: 2px solid black;
+    border-radius: 20px;
+    font-family: 'Dancing Script', cursive;
+    width: 80%;
+    margin: auto;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0.4);
+    display: none;
+}
+#detailsBerries {
+    border: 2px solid black;
+    border-radius: 20px;
+    font-family: 'Dancing Script', cursive;
+    width: 80%;
+    margin: auto;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0.4);
+    display: none;
+}
+.bouton:hover {
+    cursor: pointer;
 }
