@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    background-image: url(/img/Pokemon.jpg);
+    background-image: url(../img/Pokemon.jpg);
     background-size: cover;
 }
 .conteneur1 {
@@ -27,8 +27,7 @@ body {
 }
 .div>*:hover {
     cursor: pointer;
-    width: 5%;
-    background-color: yellowgreen;
+    width: fit-content;
 }
 .menu:hover {
     cursor: pointer;
@@ -63,4 +62,8 @@ body {
 }
 .bouton:hover {
     cursor: pointer;
+}
+.image {
+    width: 80px;
+    height: 80px;
 }
